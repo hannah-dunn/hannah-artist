@@ -1,12 +1,14 @@
 import React from "react";
 import NavBar from "../../components/NavBar/NavBar";
-import Image from "../../components/Image/Image";
+import Gif from "../../components/Gif/Gif";
+import Gallery from "../../components/Gallery/Gallery";
 
 const VideoPage = () => {
   return (
     <>
-      <Image />
+      <Gif />
       <NavBar />
+      <Gallery />
     </>
   );
 };
