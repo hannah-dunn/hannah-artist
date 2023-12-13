@@ -1,11 +1,8 @@
 import React from "react";
+import styles from "./TextBox.module.scss";
 
-const TextBox = () => {
-  return (
-    <div>
-      <p></p>
-    </div>
-  );
+const TextBox = ({ children }) => {
+  return <div className={styles.text}>{children}</div>;
 };
 
 export default TextBox;

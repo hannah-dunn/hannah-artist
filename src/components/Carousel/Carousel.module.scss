@@ -1,0 +1,10 @@
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  flex-flow: column-reverse;
+  flex-direction: row;
+  margin-left: 25%;
+  padding: 10px;
+}
