@@ -3,7 +3,7 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import styles from "./Carousel.module.scss";
 
-const CarouselItem = () => {
+const CarouselItem = ({ children }) => {
   return (
     <>
       <div className={styles.carousel}>
@@ -23,7 +23,7 @@ const CarouselItem = () => {
             <img src="/IMG_0684.JPG" />
           </div>
           <div>
-            <img src="/IMG_0776.PNG" />
+            <img src="/cd cover.png" />
           </div>
         </Carousel>
       </div>
